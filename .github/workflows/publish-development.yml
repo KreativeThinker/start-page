@@ -1,12 +1,12 @@
 name: Publish Development
 
 on:
-  workflow_dispatch:
-    inputs:
-      name:
-        description: "Tag For Build"
-        required: true
-        default: ""
+  push:
+    branches:
+      - main
+    tags:
+      - "v*"
+      
 jobs:
   push_to_registries:
     name: Push Docker image to multiple registries
@@ -50,7 +50,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: |
-            excalith/start-page:${{ inputs.name }}
-            ghcr.io/excalith/excalith-start-page:${{ inputs.name }}
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
           platforms: linux/amd64,linux/arm64
