@@ -116,7 +116,7 @@
 					{
 						"name": "Whatsapp",
 						"url": "https://web.whatsapp.com",
-						"icon": "mdi:whatsapp"
+						"icon": "fa:whatsapp"
 					},
 					{
 						"name": "Youtube",
@@ -131,7 +131,7 @@
 					{
 						"name": "Daily.dev",
 						"url": "https://daily.dev",
-						"icon": "mdi:code"
+						"icon": "fa:code"
 					}
 				]
 			},
@@ -143,7 +143,7 @@
 					{
 						"name": "GitHub",
 						"url": "https://github.com",
-						"icon": "mdi:github"
+						"icon": "fa:github"
 					},
 					{
 						"name": "Docker",
@@ -153,12 +153,12 @@
 					{
 						"name": "Dev.to",
 						"url": "https://dev.to",
-						"icon": "material-symbols:logo-dev"
+						"icon": "fa:dev"
 					},
 					{
 						"name": "Stack Overflow",
 						"url": "https://stackoverflow.com/",
-						"icon": "mdi:stack-overflow"
+						"icon": "fa:stack-overflow"
 					}
 				]
 			},
@@ -170,7 +170,7 @@
 					{
 						"name": "Twitter",
 						"url": "https://x.com",
-						"icon": "mdi:twitter"
+						"icon": "fa:twitter"
 					},
 					{
 						"name": "Instagram",
@@ -180,7 +180,7 @@
 					{
 						"name": "Reddit",
 						"url": "https://reddit.com",
-						"icon": "mdi:reddit"
+						"icon": "fa:reddit"
 					},
 					{
 						"name": "Discord",
@@ -197,76 +197,76 @@
 					{
 						"name": "Portainer",
 						"url": "http://localhost:9000",
-						"icon": "mdi:pentagon"
+						"icon": "fa:pentagon"
 					},
 					{
 						"name": "Llama",
 						"url": "http://localhost:9002",
-						"icon": "mdi:brain"
+						"icon": "fa:brain"
 					},
 					{
 						"name": "Blog",
 						"url": "https://blog.anumeya.me/",
-						"icon": "mdi:pencil"
+						"icon": "fa:pencil"
 					},
 					{
 						"name": "Portfolio",
-						"url": "https://kreativethinker.github.com",
-						"icon": "mdi:website"
+						"url": "https://kreativethinker.github.io",
+						"icon": "fa:site"
 					}
 				]
 			},
 			{
-				"title": "Science",
+				"title": "Academics",
 				"color": "blue",
 				"align": "left",
 				"links": [
 					{
-						"name": "PopSci",
-						"url": "https://popsci.com/",
-						"icon": "material-symbols:science"
+						"name": "Materials",
+						"url": "https://drive.google.com/drive/folders/1Z4tBts_Y55n4m8yRSyV7WzKocVHpi9yC",
+						"icon": "fa:book-open"
 					},
 					{
-						"name": "Space",
-						"url": "fa6-solid:user-astronaut",
-						"icon": "mdi:reddit"
+						"name": "PYQs",
+						"url": "https://www.vhelpcc.com/pyqs",
+						"icon": "fa:circle-question"
 					},
 					{
-						"name": "NASA",
-						"url": "https://blogs.nasa.gov/",
-						"icon": "simple-icons:nasa"
+						"name": "VTOP",
+						"url": "https://vtopcc.vit.ac.in",
+						"icon": "fa:v"
 					},
 					{
-						"name": "ESA",
-						"url": "https://blogs.esa.int/",
-						"icon": "mdi:black-mesa"
+						"name": "Teams",
+						"url": "https://teams.microsoft.com/v2/",
+						"icon": "fa:user"
 					}
 				]
 			},
 			{
-				"title": "Tech",
+				"title": "VIT",
 				"color": "yellow",
 				"align": "left",
 				"links": [
 					{
-						"name": "TechCrunch",
-						"url": "https://techcrunch.com/",
-						"icon": "game-icons:techno-heart"
+						"name": "LMS",
+						"url": "https://lms.vit.ac.in/",
+						"icon": "fa:m"
 					},
 					{
-						"name": "Verge",
-						"url": "https://www.theverge.com/",
-						"icon": "arcticons:verge"
+						"name": "LUGVITC",
+						"url": "https://lugvitc.net",
+						"icon": "fa:linux"
 					},
 					{
-						"name": "It's Foss",
-						"url": "https://itsfoss.com/",
-						"icon": "ri:mastodon-fill"
+						"name": "Events",
+						"url": "https://vitchennaievents.com/conf1/",
+						"icon": "fa:laptop"
 					},
 					{
-						"name": "9To5 Linux",
-						"url": "https://9to5linux.com/",
-						"icon": "uil:linux"
+						"name": "Mail",
+						"url": "https://mail.google.com",
+						"icon": "fa:envelope"
 					}
 				]
 			}
